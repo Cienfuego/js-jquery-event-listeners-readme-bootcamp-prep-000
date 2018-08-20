@@ -1,4 +1,3 @@
-/*
 function getIt(){
   $('p').on('click', function(){
     alert('Hey!');
@@ -16,7 +15,7 @@ function pressIt(){
     if(key.which === 71){
       alert('wowowowow!');
     }})}
-    */
+    
 
 function submitIt(){
   window.$("form").on("submit", function(){
@@ -25,9 +24,9 @@ function submitIt(){
 }
 
 $(document).ready(function(){
-//getIt();
-//frameIt();
-//pressIt();
+getIt();
+frameIt();
+pressIt();
 submitIt();
 
 });
